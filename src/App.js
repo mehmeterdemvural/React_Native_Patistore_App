@@ -5,7 +5,7 @@ import Search from './components/Search';
 import Products from './components/Products';
 import data from './data/data.json';
 
-function App(): JSX.Element {
+function App() {
   const renderProducts = ({item}) => <Products product={item} />;
   const keyExtract = (item, index) => item.id.toString();
   return (
